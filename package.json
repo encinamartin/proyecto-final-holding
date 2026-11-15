@@ -1,0 +1,12 @@
+{
+  "name": "proyecto-final-holding",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "backend": "cd backend && mvnw.cmd spring-boot:run",
+    "frontend": "cd frontend && npm run dev",
+    "start": "concurrently -n \"BACKEND,FRONTEND\" -c \"green,cyan\" \"npm run backend\" \"npm run frontend\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
