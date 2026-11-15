@@ -1,0 +1,3 @@
+com\holding\backend\BackendApplication.class
+com\holding\backend\controller\VendedorController.class
+com\holding\backend\controller\EmpresaController.class

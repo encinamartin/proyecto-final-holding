@@ -1,0 +1,15 @@
+# Dependencias y compilados de Frontend (React / Vite)
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# Compilados y archivos temporales de Backend (Maven / Spring Boot)
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+
+# Archivos de IDEs y Sistema Operativo
+.vscode/
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
